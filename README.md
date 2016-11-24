@@ -1,17 +1,24 @@
-# lambda-uploader package
+# Lambda Uploader package
 
 A simple package made to upload lambda files to amazon services automatically
 
 ## Instalation
-You need to have aws cli installed and configured, if you don't, checkout this repo and follow its instructions: https://github.com/awslabs/aws-shell
+You need to have AWS CLI installed and configured, if you don't, checkout [this repo](https://github.com/awslabs/aws-shell) and follow its instructions
 
 ## Usage
 Try to follow the naming convention below:
-    METHOD-lambda-name
+
+```
+METHOD-lambda-name
+```
+
 The following names are valid through this convention:
-    GET-operators
-    POST-validation
-    DELETE-operation-managers
+
+```
+GET-operators
+POST-validation
+DELETE-operation-managers
+```
 
 Before uploading the files make sure to build them using `npm run build` or do it automatically using `Build`
 

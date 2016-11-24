@@ -6,7 +6,10 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "lambda-uploader:upload"
+    "atom-workspace": [
+      "lambda-uploader:upload",
+      "lambda-uploader:build"
+    ]
   },
   "repository": "https://github.com/atom/lambda-uploader",
   "license": "MIT",

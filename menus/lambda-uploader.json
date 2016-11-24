@@ -4,6 +4,10 @@
       {
         "label": "Upload lambda-uploader",
         "command": "lambda-uploader:upload"
+      },
+      {
+        "label": "Build lambda-uploader",
+        "command": "lambda-uploader:build"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Upload",
               "command": "lambda-uploader:upload"
+            },
+            {
+              "label": "Build",
+              "command": "lambda-uploader:build"
             }
           ]
         }

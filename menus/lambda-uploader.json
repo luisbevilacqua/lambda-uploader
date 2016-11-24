@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Upload lambda-uploader",
+        "command": "lambda-uploader:upload"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "lambda-uploader",
+          "submenu": [
+            {
+              "label": "Upload",
+              "command": "lambda-uploader:upload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
